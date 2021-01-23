@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import math
 if __name__ == '__main__':
     n = int(input("Value of n? "))
@@ -7,4 +10,3 @@ if __name__ == '__main__':
         a = math.log(k * x) / (k * k)
         S += a
     print(f"S = {S}")
-    
